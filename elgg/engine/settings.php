@@ -35,21 +35,21 @@ if (!isset($CONFIG)) {
  * @global string $CONFIG->dbuser
  * @name $CONFIG->dbuser
  */
-$CONFIG->dbuser = '$_SERVER['db_user']';
+$CONFIG->dbuser = $_SERVER['db_user'];
 
 /**
  * The database password
  *
  * @global string $CONFIG->dbpass
  */
-$CONFIG->dbpass = '$_SERVER['db_pass']';
+$CONFIG->dbpass = $_SERVER['db_pass'];
 
 /**
  * The database name
  *
  * @global string $CONFIG->dbname
  */
-$CONFIG->dbname = '$_SERVER['db_name']';
+$CONFIG->dbname = $_SERVER['db_name'];
 
 /**
  * The database host.
@@ -58,7 +58,7 @@ $CONFIG->dbname = '$_SERVER['db_name']';
  *
  * @global string $CONFIG->dbhost
  */
-$CONFIG->dbhost = 'localhost';
+$CONFIG->dbhost = $_SERVER['db_host'];
 
 /**
  * The database prefix
