@@ -1,0 +1,3 @@
+[submodule "elgg"]
+	path = elgg
+	url = git://github.com/Elgg/Elgg.git
